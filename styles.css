@@ -1,0 +1,141 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #002b11;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.date-time {
+    text-align: right;
+}
+
+.date-time h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.date-time span {
+    font-size: 14px;
+}
+
+/* Ad Section */
+.ad-section {
+    background: transparent;
+    border: 2px solid gold;
+    color: red;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* History Bar */
+.history-bar {
+    background: white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.history-bar .active {
+    color: green;
+    font-weight: bold;
+}
+
+/* Match Cards */
+.match-card {
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.ticket-id {
+    font-size: 14px;
+    color: gray;
+}
+
+.match-teams {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.team-name {
+    font-weight: bold;
+}
+
+.match-teams input {
+    width: 40px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* SUPL Pick */
+.supl-pick {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Input Fields */
+.input-container {
+    margin: 15px 0;
+}
+
+.input-container input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid gold;
+    background: transparent;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Submit Button */
+.submit-btn {
+    background: green;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background: darkgreen;
+}
